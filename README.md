@@ -15,7 +15,7 @@ Let's make our tough life fun.
 
 - [ ] Compile `data/*` to `fortune(6)` data format so you can see our cookies from
       your terminal, e.g, `fortune`
-- [ ] Have a useful `cli` tool to get random quote from our data set.
+- [ ] Have an useful `cli` tool to get random quote from our data set.
 - [ ] Have a simple `API` to generate quote :)
 
 ## License
