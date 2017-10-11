@@ -1,6 +1,6 @@
 Công ty tăng lương anh mới viết phần còn lại -- ArchLinuxVn 2017
 %
-Bạn đánh giá như thế nào về dịch vụ ReCAPCHA của Google?
+Bạn đánh giá như thế nào về dịch vụ reCaptcha của Google?
   * Chôn nó (86%)
   * Tốt - nên xài (7%)
   * Cũng được (7%)
