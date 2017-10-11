@@ -11,7 +11,18 @@ Let's make our tough life fun.
 
 ## Usage
 
-`WIP`. Stay tuned. Here is our TODO list.
+Pack all data and convert to `fortune` format automatic using
+```bash
+./build.sh
+```
+and enjoy
+```bash
+fortune data/all.txt
+```
+
+## TODO
+
+WIP. Stay tuned. Here is our TODO list.
 
 - [ ] Compiling `data/*` to `fortune(6)` data format so you can see our cookies from
       your terminal, e.g, `fortune`
