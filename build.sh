@@ -7,7 +7,8 @@ touch all.txt
 for file in *[^all].txt; do
     cat ${file} >> all.txt
 
-    if [[ $(tail -n 1 ${file}) != "%" ]]; then
+    # remove blank line and check if last line is %
+    if [[ $(cat ${file} | grep . | tail -n -1) != "%" ]]; then
         echo % >> all.txt
     fi
 done

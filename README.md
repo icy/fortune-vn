@@ -6,12 +6,16 @@ Let's make our tough life fun.
 ## Contributing
 
 1. Create a custom file under `data/`. For example, `data/ngoctrinh.txt`
-1. Add quotes there. Use `%` between quotes.
-1. Feel free to add link to the quote. Use http://web.archive.org/ if possible.
+
+Note: Make sure the file name extension is `.txt` and don't use `all.txt` (reserved name)
+
+2. Add quotes there. Use `%` between quotes.
+
+3. Feel free to add link to the quote. Use http://web.archive.org/ if possible.
 
 ## Usage
 
-Pack all data and convert to `fortune` format automatic using
+Pack all data and convert into `fortune` format automatic using
 ```bash
 ./build.sh
 ```
@@ -24,7 +28,7 @@ fortune data/all.txt
 
 WIP. Stay tuned. Here is our TODO list.
 
-- [ ] Compiling `data/*` to `fortune(6)` data format so you can see our cookies from
+- [x] Compiling `data/*` to `fortune(6)` data format so you can see our cookies from
       your terminal, e.g, `fortune`
 - [ ] Having an useful `cli` tool to get random quote from our data set.
 - [ ] Having a simple `API` to generate quote :)
