@@ -1,0 +1,6 @@
+sudo: required
+language:
+- bash
+script:
+- sudo apt-get install fortune-mod
+- make all

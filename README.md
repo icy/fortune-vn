@@ -13,11 +13,11 @@ Let's make our tough life fun.
 
 Pack all data and convert to `fortune` format automatic using
 ```bash
-./build.sh
+./bin/fortune.sh
 ```
 and enjoy
 ```bash
-fortune data/all.txt
+fortune fortune-vn
 ```
 
 ## TODO
