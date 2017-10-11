@@ -17,5 +17,4 @@ B: Vẫn tạch.
 5 phút sau...
 
 B: đệt =)) ra rồi =))
-B: Quên config lại sock trên firefox :)) Em có thử `-N` mà thấy không vào
-mạng được nên tưởng tạch :v
+B: Quên config lại sock trên firefox :)) Em có thử `-N` mà thấy không vào mạng được nên tưởng tạch :v
