@@ -18,3 +18,5 @@ B: Vẫn tạch.
 
 B: đệt =)) ra rồi =))
 B: Quên config lại sock trên firefox :)) Em có thử `-N` mà thấy không vào mạng được nên tưởng tạch :v
+%
+/me cài windows lên máy mac, xong cài arch lên vmware -- ArchLinuxVN 2017 -- NhamLH
