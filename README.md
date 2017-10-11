@@ -11,12 +11,12 @@ Let's make our tough life fun.
 
 ## Usage
 
-`WIP`. Stay tuned. Here are our TODO list.
+`WIP`. Stay tuned. Here is our TODO list.
 
-- [ ] Compile `data/*` to `fortune(6)` data format so you can see our cookies from
+- [ ] Compiling `data/*` to `fortune(6)` data format so you can see our cookies from
       your terminal, e.g, `fortune`
-- [ ] Have an useful `cli` tool to get random quote from our data set.
-- [ ] Have a simple `API` to generate quote :)
+- [ ] Having an useful `cli` tool to get random quote from our data set.
+- [ ] Having a simple `API` to generate quote :)
 
 ## License
 
