@@ -1,19 +1,17 @@
 #! /usr/bin/env bash
 
-OUTPUT=${OUTPUT:="all.txt"}
-
 cd data
-rm -f ${OUTPUT} ${OUTPUT}.dat
-touch ${OUTPUT}
+rm -f all.*
+touch all.txt
 
 for file in *[^all].txt; do
-    cat ${file} >> ${OUTPUT}
+    cat ${file} >> all.txt
 
     if [[ $(tail -n 1 ${file}) != "%" ]]; then
-        echo % >> ${OUTPUT}
+        echo % >> all.txt
     fi
 done
 
-strfile -c % ${OUTPUT} ${OUTPUT}.dat
+strfile -c % all.txt all.txt.dat
 
 echo Done, Have fun!
