@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/icy/fortune-vn.svg?branch=master)](https://travis-ci.org/icy/fortune-vn)
+
 ## Description
 
 This project is to collect fun quotes from/by/to Vietnamese developers.
@@ -19,6 +21,8 @@ and enjoy
 ```bash
 fortune fortune-vn
 ```
+
+Feel free to take a look at the sample `Makefile`.
 
 ## TODO
 
