@@ -5,3 +5,17 @@ Bạn đánh giá như thế nào về dịch vụ reCaptcha của Google?
   * Tốt - nên xài (7%)
   * Cũng được (7%)
 14 người trên ArchLinuxVn đã bình chọn :)
+%
+B: Could not chdir to home directory /home/username: No such file or directory.
+Connection to ssh-server closed.
+
+Có cách nào giữ được kết nối không ạ?
+A: `ssh -fN ...`
+B: em cũng thử rồi bác. Đọc `man ssh` cả chục lần
+B: Vẫn tạch.
+
+5 phút sau...
+
+B: đệt =)) ra rồi =))
+B: Quên config lại sock trên firefox :)) Em có thử `-N` mà thấy không vào
+mạng được nên tưởng tạch :v
