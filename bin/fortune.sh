@@ -8,6 +8,8 @@
 D_ROOT="$(dirname "${BASH_SOURCE[0]:-.}")/../"
 F_OUTPUT="${D_ROOT}/fortune-vn"
 
+export PATH=$PATH:/usr/games/ # Well, it's Ubuntu...
+
 _fortune() {
   {
     for file in "${D_ROOT}"/data/*.txt; do
