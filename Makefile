@@ -15,6 +15,6 @@ fortune-vn: bin/fortune.sh data/*.txt
 
 .PHONY: random-quote
 random-quote:
-	@fortune fortune-vn
+	@fortune fortune-vn || /usr/games/fortune fortune-vn
 
 all: shellcheck fortune-vn random-quote
