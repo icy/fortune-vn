@@ -19,6 +19,13 @@ B: Vẫn tạch.
 B: đệt =)) ra rồi =))
 B: Quên config lại sock trên firefox :)) Em có thử `-N` mà thấy không vào mạng được nên tưởng tạch :v
 %
-/me cài windows lên máy mac, xong cài arch lên vmware -- ArchLinuxVN 2017 -- NhamLH
+/me cài windows lên máy mac, xong cài arch lên vmware -- ArchLinuxVn 2017
 %
-Hỏi ngu. Sao wifi hàng xóm và wifi nhà thấy tuốt những thằng connect vô. Mà wifi cafe lại không thấy. -- ArchLinuxVN 2017 -- Hieu Stephentt
+Hỏi ngu. Sao wifi hàng xóm và wifi nhà thấy tuốt những thằng connect vô. Mà wifi cafe lại không thấy. -- ArchLinuxVn 2017
+%
+- có cái nào vui PR phát nào @abct =))
+- cuối tuần nha anh
+  dạo này cày như trâu
+  🙁
+- haha ok
+-- ArchLinuxVn 2017
