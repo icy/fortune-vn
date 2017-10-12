@@ -12,16 +12,9 @@ export PATH=$PATH:/usr/games/ # Well, it's Ubuntu...
 
 _fortune() {
   {
-    local _total=
-    local _idx=
-
-    _total="$(find "${D_ROOT}/data/" -maxdepth 1 -type f -iname "*.txt" | wc -l)"
-    _idx="$_total"
-
     for file in "${D_ROOT}"/data/*.txt; do
       cat "${file}"
-      (( _idx -- ))
-      if [[ $_idx -gt 0 && $(tail -n 1 "${file}") != "%" ]]; then
+      if [[ $(grep . ${file} | tail -n 1) != "%" ]]; then
         echo %
       fi
     done
