@@ -14,7 +14,7 @@ _fortune() {
   {
     for file in "${D_ROOT}"/data/*.txt; do
       cat "${file}"
-      if [[ $(tail -n 1 "${file}") != "%" ]]; then
+      if [[ $(grep . ${file} | tail -n 1) != "%" ]]; then
         echo %
       fi
     done
