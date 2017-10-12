@@ -12,7 +12,7 @@ export PATH=$PATH:/usr/games/ # Well, it's Ubuntu...
 
 _fortune() {
   cat "${D_ROOT}/data"/*.txt \
-  | ruby -e 'puts STDIN.readlines.join.split("%").map(&:strip).delete_if(&:empty?).join("\n%\n")' \
+  | ruby -e 'puts STDIN.readlines.join.split(/^%$/).map(&:strip).delete_if(&:empty?).join("\n%\n")' \
   > "$F_OUTPUT"
 
   if command -v strfile >/dev/null; then
