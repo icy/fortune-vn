@@ -11,6 +11,12 @@ F_OUTPUT="${D_ROOT}/fortune-vn"
 export PATH=$PATH:/usr/games/ # Well, it's Ubuntu...
 
 _fortune() {
+  command -v ruby > /dev/null \
+  || {
+    echo >&2 ":: \`ruby\` not found."
+    return 1
+  }
+
   cat "${D_ROOT}/data"/*.txt \
   | ruby -e 'puts STDIN.readlines.join.split(/^%$/).map(&:strip).delete_if(&:empty?).join("\n%\n")' \
   > "$F_OUTPUT"
