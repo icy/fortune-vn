@@ -1,0 +1,5 @@
+Hai lập trình viên tán gẫu với nhau. Một anh nói:
+- Giả sử bây giờ cậu có 1000 đô la thì cậu sẽ làm gì...
+Anh kia ngắt lời:
+- Sao không lấy 1024 cho nó chẵn
+-- VnOSS 2005
