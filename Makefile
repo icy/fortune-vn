@@ -13,4 +13,8 @@ clean:
 fortune-vn: bin/fortune.sh data/*.txt
 	@./bin/fortune.sh
 
-all: shellcheck fortune-vn
+.PHONY: random-quote
+random-quote:
+	@fortune fortune-vn
+
+all: shellcheck fortune-vn random-quote
