@@ -11,21 +11,8 @@ F_OUTPUT="${D_ROOT}/fortune-vn"
 export PATH=$PATH:/usr/games/ # Well, it's Ubuntu...
 
 _fortune() {
-  {
-    local _total=
-    local _idx=
-
-    _total="$(find "${D_ROOT}/data/" -maxdepth 1 -type f -iname "*.txt" | wc -l)"
-    _idx="$_total"
-
-    for file in "${D_ROOT}"/data/*.txt; do
-      cat "${file}"
-      (( _idx -- ))
-      if [[ $_idx -gt 0 && $(tail -n 1 "${file}") != "%" ]]; then
-        echo %
-      fi
-    done
-  } \
+  cat "${D_ROOT}/data"/*.txt \
+  | ruby -e 'puts STDIN.readlines.join.split("%").map(&:strip).delete_if(&:empty?).join("\n%\n")' \
   > "$F_OUTPUT"
 
   if command -v strfile >/dev/null; then
