@@ -24,6 +24,12 @@ fortune fortune-vn
 
 Feel free to take a look at the sample `Makefile`.
 
+## Related projects
+
+@tentamen maintains a bot to publish random quotes on Twitter
+https://twitter.com/fortune_vn. The bot is also open source
+https://github.com/tentamen/fortune-vn-twit.
+
 ## TODO
 
 WIP. Stay tuned. Here is our TODO list.
