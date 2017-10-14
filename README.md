@@ -50,7 +50,7 @@ please install `coway` from this repository
 ## With Twitter
 
 Follow https://twitter.com/fortune_vn. This channel is updated by a bot
-developed by [@tentamen(https://github.com/tentamen/fortune-vn-twit).
+developed and maintained by [@tentamen](https://github.com/tentamen/fortune-vn-twit).
 
 ## TODO
 
