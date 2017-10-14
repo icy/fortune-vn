@@ -1,5 +1,6 @@
 default:
-	@echo "fortune-vn  Compile fortune data"
+	@echo "fortune-vn     Compile fortune data. Useful for developers/testers"
+	@echo "fortune-vn.dat Compile fortune-data binary file for fortune program"
 
 .PHONY: shellcheck
 shellcheck:
@@ -13,8 +14,16 @@ clean:
 fortune-vn: bin/fortune.sh data/*.txt
 	@./bin/fortune.sh
 
+fortune-vn.dat: fortune-vn
+	@strfile -c "%" $<
+	@echo "The file $(@) is now ready. Use them as below"
+	@echo "  fortune $(<)"
+
 .PHONY: random-quote
 random-quote:
-	@fortune fortune-vn || /usr/games/fortune fortune-vn
+	@( \
+		{	fortune fortune-vn || /usr/games/fortune fortune-vn ; } \
+		| { if which cowsay >/dev/null; then cowsay; else cat; fi; } \
+	)
 
 all: shellcheck fortune-vn random-quote
