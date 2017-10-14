@@ -17,18 +17,18 @@ _fortune() {
     return 1
   }
 
-  cat "${D_ROOT}/data"/*.txt \
-  | ruby -e 'arr=STDIN
-      .readlines
-      .join
-      .split(/^%$/)
+  ruby -e '
+    arr = Dir.glob("data/*.txt")
+      .map{|fn| File.open(fn,"r").readlines.join.split(/^%$/)}
+      .flatten
       .map(&:strip)
-      .delete_if(&:empty?);
-      puts arr
-      .join("\n%\n");
-      STDERR
-      .puts("\n:: Total #{arr.size}/1k quotes found.\n\n")' \
-  > "$F_OUTPUT"
+      .delete_if(&:empty?)
+
+    puts arr.join("\n%\n");
+
+    STDERR.puts("\n:: Total #{arr.size}/1k quotes found.\n\n")' \
+  > "$F_OUTPUT" \
+  || return 1
 
   if command -v strfile >/dev/null; then
     strfile -c "%" "$F_OUTPUT" || return 1
