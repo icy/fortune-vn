@@ -29,3 +29,10 @@ Hỏi ngu. Sao wifi hàng xóm và wifi nhà thấy tuốt những thằng conne
   🙁
 - haha ok
 -- ArchLinuxVn 2017
+%
+- Cách gì để tăng tốc độ đĩa cứng?
+- Setup Raid0
+- Làm sao?
+- Chia đĩa cứng ra hai phân vùng rồi làm Raid0 trên đó
+- =)))
+-- ArchLinuxVn 2013

@@ -2,3 +2,7 @@
 - ...
 - Em trả lời như thế luôn. Cố gắng học tập và đống thuế đầy đủ :v
 -- ArchLinuxVn 2017
+%
+- CEO: Anh cho biết vì sao chúng tôi phải tuyển anh?
+- Candidate: Oh, anh không cần phải tuyển tôi.
+-- ArchLinuxVn 2017
