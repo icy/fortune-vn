@@ -18,7 +18,16 @@ _fortune() {
   }
 
   cat "${D_ROOT}/data"/*.txt \
-  | ruby -e 'puts STDIN.readlines.join.split(/^%$/).map(&:strip).delete_if(&:empty?).join("\n%\n")' \
+  | ruby -e 'arr=STDIN
+      .readlines
+      .join
+      .split(/^%$/)
+      .map(&:strip)
+      .delete_if(&:empty?);
+      puts arr
+      .join("\n%\n");
+      STDERR
+      .puts("\n:: Total #{arr.size}/1k quotes found.\n\n")' \
   > "$F_OUTPUT"
 
   if command -v strfile >/dev/null; then

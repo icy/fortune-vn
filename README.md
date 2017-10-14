@@ -72,6 +72,9 @@ be stable and maintained by release engineer.
 1. Add quotes there. Use `%` between quotes.
 1. Feel free to add link to the quote. Use http://web.archive.org/ if possible.
 
+The maintainer's environment consists of `Ruby`, `fortune-mod` and `make`
+programs. Type `make all` to compile all things and see a random quote.
+
 Feel free to take a look at the sample [Makefile](Makefile).
 
 ## License
