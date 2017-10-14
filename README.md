@@ -64,6 +64,9 @@ WIP. Stay tuned. Here is our TODO list.
 
 ## Contributing
 
+**Important**: Never commit your changes for `fortune-vn`. This file should
+be stable and maintained by release engineer.
+
 1. Take a look at our [simple notes](data/README.md)
 1. Create a custom file under `data/`. For example, [data/ngoctrinh.txt](data/ngoctrinh.txt)
 1. Add quotes there. Use `%` between quotes.
