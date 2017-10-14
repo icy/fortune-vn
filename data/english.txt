@@ -4,3 +4,8 @@
 - À, copy =))
 -- Tam Kỳ, 2007
 %
+- Hỏi ngu: hệ điều hành CentOS đọc là "Xen - ô - ét" hay "Xen tốt" vậy mọi người?
+- Xen OS chứ
+- Wiki bẩu là /sɛnt.ɑːs/ http://www.wikiwand.com/en/CentOS
+- StackOverflow thì bẩu, tùy :D
+-- ArchLinuxVn 2017
