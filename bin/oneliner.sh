@@ -13,7 +13,6 @@ curl -Lso- https://raw.githubusercontent.com/icy/fortune-vn/master/fortune-vn \
 | awk '{if($0 == "%") {printf("\n");} else { printf("%s<|>", $0); }}' \
 | shuf -n 1 \
 | sed -e 's#<|>$##g' -e "s#<|>#\\n#g" \
-| sed -e 's#"#^#' \
 | {
   if [[ -n "${COWSAY:-}" ]]; then
     # shellcheck disable=2086
