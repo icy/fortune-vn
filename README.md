@@ -31,6 +31,21 @@ $ curl -Lso- https://raw.githubusercontent.com/icy/fortune-vn/master/fortune-vn 
   | sed -e 's#<|>$##g' -e "s#<|>#\\n#g"
 ```
 
+This one-liner can be downloaded and executed too:
+
+```
+$ curl -Lso- https://raw.githubusercontent.com/icy/fortune-vn/master/bin/oneliner.sh \
+  | bash
+```
+
+You can even provide `cowsay` options to this one-liner. For example to
+specify column width:
+
+```
+$ curl -Lso- https://raw.githubusercontent.com/icy/fortune-vn/master/bin/oneliner.sh \
+  | COWSAY="-W 80" bash
+```
+
 ### With fortune
 
 We compile a stable version of all quotes in the file `fortune-vn`.
