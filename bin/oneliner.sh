@@ -5,7 +5,8 @@
 # License : MIT
 # Usage   :
 #
-#   curl -Lso- curl -Lso- https://raw.githubusercontent.com/icy/fortune-vn/master/bin/oneliner.sh | bash
+#   $ curl -Lso- https://raw.githubusercontent.com/icy/fortune-vn/master/bin/oneliner.sh | bash
+#   $ curl -Lso- https://raw.githubusercontent.com/icy/fortune-vn/master/bin/oneliner.sh | COWSAY="-W 80" bash
 #
 
 curl -Lso- https://raw.githubusercontent.com/icy/fortune-vn/master/fortune-vn \
