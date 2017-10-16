@@ -4,6 +4,7 @@
 
 * [Description](#description)
 * [Usage](#usage)
+  * [One-liner](#one-liner)
   * [With fortune](#with-fortune)
   * [With cowsay](#with-cowsay)
   * [With Twitter](#with-twitter)
@@ -18,6 +19,18 @@ Let's make our tough life fun.
 
 ## Usage
 
+### One-liner
+
+Without installing the project file locally, you may need `curl`, `awk`
+and `sed` tools to get a random quote:
+
+```
+$ curl -Lso- https://raw.githubusercontent.com/icy/fortune-vn/master/fortune-vn \
+  | awk '{if($0 == "%") {printf("\n");} else { printf("%s<|>", $0); }}' \
+  | shuf -n 1 \
+  | sed -e 's#<|>$##g' -e "s#<|>#\\n#g"
+```
+
 ### With fortune
 
 We compile a stable version of all quotes in the file `fortune-vn`.
@@ -27,7 +40,7 @@ You generate a binary form for this file as below
 $ strfile -c "%" fortune
 ```
 
-New file `fortune-vn.dat` will be created and you can use them as below
+New file `fortune-vn.dat` will be created and you can use them:
 
 ```
 $ fortune fortune-vn
