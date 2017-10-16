@@ -31,7 +31,8 @@ $ curl -Lso- https://raw.githubusercontent.com/icy/fortune-vn/master/fortune-vn 
   | sed -e 's#<|>$##g' -e "s#<|>#\\n#g"
 ```
 
-This one-liner can be downloaded and executed too:
+This one-liner [can be found here](./bin/oneliner.sh)
+and you can download and execute it:
 
 ```
 $ curl -Lso- https://raw.githubusercontent.com/icy/fortune-vn/master/bin/oneliner.sh \
