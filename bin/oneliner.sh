@@ -16,6 +16,7 @@ curl -Lso- https://raw.githubusercontent.com/icy/fortune-vn/master/fortune-vn \
 | sed -e 's#"#^#' \
 | {
   if [[ -n "${COWSAY:-}" ]]; then
+    # shellcheck disable=2086
     cowsay ${COWSAY}
   else
     cat
