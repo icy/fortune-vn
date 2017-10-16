@@ -37,4 +37,4 @@ Hỏi ngu. Sao wifi hàng xóm và wifi nhà thấy tuốt những thằng conne
 - =)))
 -- ArchLinuxVn 2013
 %
-cuôi tuần lại sửa vài chữ từ bài báo cáo tuần trước rồi email cho sếp  -- ArchLinuxVn 2017
+Cuối tuần lại sửa vài chữ từ bài báo cáo tuần trước rồi email cho sếp -- ArchLinuxVn 2017
