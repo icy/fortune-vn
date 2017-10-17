@@ -9,7 +9,7 @@ shellcheck:
 
 .PHONY: clean
 clean:
-	@rm -fv fortune-vn fortune-vn.dat
+	@rm -fv fortune-vn fortune-vn.dat bin/fortune-vn
 
 fortune-vn: bin/fortune.sh data/*.txt
 	@./bin/fortune.sh
@@ -25,5 +25,8 @@ random-quote:
 		{	fortune fortune-vn || /usr/games/fortune fortune-vn ; } \
 		| { if which cowsay >/dev/null; then cowsay; else cat; fi; } \
 	)
+
+./bin/fortune-vn: fortune-vn
+	@dub build -b release
 
 all: shellcheck fortune-vn random-quote

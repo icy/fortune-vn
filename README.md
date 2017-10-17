@@ -19,6 +19,11 @@ Let's make our tough life fun.
 
 ## Usage
 
+## With Twitter
+
+Follow https://twitter.com/fortune_vn. This channel is updated by a bot
+developed and maintained by [@tentamen](https://github.com/tentamen/fortune-vn-twit).
+
 ### One-liner
 
 Without installing the project file locally, you may need `curl`, `awk`
@@ -76,10 +81,29 @@ please install `coway` from this repository
 
   https://github.com/icyfork/rank-amateur-cowsay
 
-## With Twitter
+### Dlang program
 
-Follow https://twitter.com/fortune_vn. This channel is updated by a bot
-developed and maintained by [@tentamen](https://github.com/tentamen/fortune-vn-twit).
+The whole `fortune-vn` data can be used in a single `Dlang` binary program.
+If you have `dlang` and `dub` installed, please compile the program
+
+```
+$ dub build -b release fortune-vn
+```
+
+New file is created at `./bin/fortune-vn`. The speed is good
+
+```
+$ time fortune fortune-vn
+real    0m0.012s
+user    0m0.008s
+sys     0m0.004s
+
+$ time ./bin/fortune-vn
+
+real    0m0.004s
+user    0m0.005s
+sys     0m0.000s
+```
 
 ## TODO
 
@@ -87,7 +111,7 @@ WIP. Stay tuned. Here is our TODO list.
 
 - [x] Compiling `data/*` to `fortune(6)` data format so you can see our cookies from
       your terminal, e.g, `fortune`
-- [ ] Having an useful `cli` tool to get random quote from our data set.
+- [x] Having an useful `cli` tool to get random quote from our data set.
 - [ ] Having a simple `API` to generate quote :)
 - [ ] Collecting the first 1k quotes :)
 
