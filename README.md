@@ -4,10 +4,11 @@
 
 * [Description](#description)
 * [Usage](#usage)
+  * [With Twitter](#with-twitter)
   * [One-liner](#one-liner)
   * [With fortune](#with-fortune)
   * [With cowsay](#with-cowsay)
-  * [With Twitter](#with-twitter)
+  * [Dlang program](#dlang-proram)
 * [TODO](#todo)
 * [Contributing](#contributing)
 * [License](#license)
