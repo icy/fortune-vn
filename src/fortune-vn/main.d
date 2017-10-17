@@ -13,7 +13,7 @@ void main() {
   import std.array;
 
   auto fortunes = fortuneVn.splitter(regex(r"^%$", "m")).array();
-  // assert(fortunes.length > 1);
+  debug(1) stderr.writefln(":: (debug) Number of quotes found: %s", fortunes.length);
 
   import std.format;
   import std.random;
