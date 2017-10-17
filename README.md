@@ -8,7 +8,7 @@
   * [One-liner](#one-liner)
   * [With fortune](#with-fortune)
   * [With cowsay](#with-cowsay)
-  * [Dlang program](#dlang-proram)
+  * [Dlang program](#dlang-program)
 * [TODO](#todo)
 * [Contributing](#contributing)
 * [License](#license)
@@ -91,7 +91,7 @@ If you have `dlang` and `dub` installed, please compile the program
 $ dub build -b release fortune-vn
 ```
 
-New file is created at `./bin/fortune-vn`. The speed is good
+New file binary is created at `./bin/fortune-vn`. The speed is good:
 
 ```
 $ time fortune fortune-vn
