@@ -43,3 +43,10 @@ Cuối tuần lại sửa vài chữ từ bài báo cáo tuần trước rồi e
 - Máy này archlinux đấy bạn. giờ ai xài gentoo nữa 😂😂
 - À à. mấy tấm (screenshot) kia lừa tình vkl
 -- ArchLinuxVn 2017
+%
+- Mà e thấy có magic nè, dùng user, thì `ls` ra mếu thấy `grp`, nhưng dùng `root` ls thì thấy grp bình thường?
+- Vì lý do bảo mật nên chúng tôi không hiển thị group name cho quý khách =))
+  Chạy lệnh \ls xem :D
+- Được kìa anh.
+- Lần sau nhớ uninstall oh-my-sh trước khi hỏi haha
+-- ArchLinuxVn 2016
