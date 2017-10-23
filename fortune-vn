@@ -14,7 +14,9 @@ dịch vụ đó. Ngay cả nhà cung cấp dịch vụ, nếu không phối h�
 với cơ quan chức năng để xử lý những thông tin xấu độc đó
 thì rút giấy phép không cho hoạt động ở Việt Nam -- Vietnam 2017
 %
-Đê vỡ có kế hoạch -- Vietnam 2017
+- Đê vỡ có kế hoạch -- Vietnam 2017
+%
+'Đê vỡ có kế hoạch' chỉ là nói vui - Vietnam 2017
 %
 Công ty tăng lương anh mới viết phần còn lại -- ArchLinuxVn 2017
 %
@@ -121,6 +123,16 @@ Có 3 hướng làm giàu: tự kinh doanh, xin tiền bạn trai, xin tiền ba
 - Wiki bẩu là /sɛnt.ɑːs/ http://www.wikiwand.com/en/CentOS
 - StackOverflow thì bẩu, tùy :D
 -- ArchLinuxVn 2017
+%
+You are fucking guy !!!
+
+> interface IServerResponse
+> asyncMeals: Observable<string[]>;
+I can write english but i feel you are fucking guy, so i write vietnamese.
+Bạn thật ngu ngốc khi ép buộc chúng tôi sử dụng Observable string và interface.
+Đôi khi chúng tôi muốn tạo ra một webapp thật nhanh, chúng tôi sử dụng
+kiểu dữ liệu asyncMeals: any; Nhưng nó đã không hoạt động, điều này thật ngu ngốc :)
+-- https://github.com/michaelbromley/ngx-pagination/issues/207
 %
 Hai lập trình viên tán gẫu với nhau. Một anh nói:
 - Giả sử bây giờ cậu có 1000 đô la thì cậu sẽ làm gì...
