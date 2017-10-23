@@ -1,0 +1,9 @@
+You are fucking guy !!!
+
+> interface IServerResponse
+> asyncMeals: Observable<string[]>;
+I can write english but i feel you are fucking guy, so i write vietnamese.
+Bạn thật ngu ngốc khi ép buộc chúng tôi sử dụng Observable string và interface.
+Đôi khi chúng tôi muốn tạo ra một webapp thật nhanh, chúng tôi sử dụng
+kiểu dữ liệu asyncMeals: any; Nhưng nó đã không hoạt động, điều này thật ngu ngốc :)
+-- https://github.com/michaelbromley/ngx-pagination/issues/207
