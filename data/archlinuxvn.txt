@@ -50,3 +50,8 @@ Cuối tuần lại sửa vài chữ từ bài báo cáo tuần trước rồi e
 - Được kìa anh.
 - Lần sau nhớ uninstall oh-my-sh trước khi hỏi haha
 -- ArchLinuxVn 2016
+%
+- Em trước đây tốn quá nhiều thời gian để setup cái gõ tiếng việt này mà
+  vẫn thấy kết quả ko tốt lắm nên chỉ xài extension trên chrome à. Xài cả năm và thấy vậy là quá đủ.
+- Ko phải ko tốt. Mà là méo ra gì.
+-- ArchLinuxVn 2017
