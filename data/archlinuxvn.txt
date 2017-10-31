@@ -55,3 +55,12 @@ Cuối tuần lại sửa vài chữ từ bài báo cáo tuần trước rồi e
   vẫn thấy kết quả ko tốt lắm nên chỉ xài extension trên chrome à. Xài cả năm và thấy vậy là quá đủ.
 - Ko phải ko tốt. Mà là méo ra gì.
 -- ArchLinuxVn 2017
+%
+Thử nghiệm mirror mới...
+- Thử nghiệm xong nó upgrade driver nvidia, mình khởi động lại thì bị dính lỗi này:
+  máy 2 màn hình giờ chỉ nhân 1, mà cái hiển thị được lại không hiển thị vừa khung màn hình
+- ...
+- Vừa nãy chạy thử giao diện điều khiển của nvidia lên, nó báo lỗi không có X11,
+  rồi chạy lệnh nvidia-xconfig, sau khi chạy xong khởi động lại thì bị lỗi này
+  như trong ảnh, chờ mãi ko boot vào os đc. Như này là bị sao thế các bác ơi
+-- ArchLinuxVn 2017
