@@ -64,3 +64,7 @@ Thử nghiệm mirror mới...
   rồi chạy lệnh nvidia-xconfig, sau khi chạy xong khởi động lại thì bị lỗi này
   như trong ảnh, chờ mãi ko boot vào os đc. Như này là bị sao thế các bác ơi
 -- ArchLinuxVn 2017
+%
+- Các anh cho em hỏi, galera cluster của em có 5 database servers , em có cần cài thêm ClusterControl garbd  để tránh split-brain không ạ
+- http://blog.archlinuxvn.org/2016/12/27/how-to-avoid-split-brain-in-galera-clusters
+-- ArchLinuxVn 2017
