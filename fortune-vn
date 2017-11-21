@@ -18,6 +18,8 @@ thì rút giấy phép không cho hoạt động ở Việt Nam -- Vietnam 2017
 %
 'Đê vỡ có kế hoạch' chỉ là nói vui - Vietnam 2017
 %
+Mạng xã hội Việt Nam có thể cạnh tranh với Facebook, Google trong 7 năm tới - Vietnam 2017
+%
 Công ty tăng lương anh mới viết phần còn lại -- ArchLinuxVn 2017
 %
 Bạn đánh giá như thế nào về dịch vụ reCaptcha của Google?
@@ -83,6 +85,10 @@ Thử nghiệm mirror mới...
 - Vừa nãy chạy thử giao diện điều khiển của nvidia lên, nó báo lỗi không có X11,
   rồi chạy lệnh nvidia-xconfig, sau khi chạy xong khởi động lại thì bị lỗi này
   như trong ảnh, chờ mãi ko boot vào os đc. Như này là bị sao thế các bác ơi
+-- ArchLinuxVn 2017
+%
+- Các anh cho em hỏi, galera cluster của em có 5 database servers , em có cần cài thêm ClusterControl garbd  để tránh split-brain không ạ
+- http://blog.archlinuxvn.org/2016/12/27/how-to-avoid-split-brain-in-galera-clusters
 -- ArchLinuxVn 2017
 %
 Thật không thể tin nổi! -- Bkav 2015
