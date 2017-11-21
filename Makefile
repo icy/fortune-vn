@@ -29,4 +29,4 @@ random-quote:
 ./bin/fortune-vn: fortune-vn
 	@dub build -b release
 
-all: shellcheck fortune-vn random-quote
+all: shellcheck fortune-vn.dat random-quote
